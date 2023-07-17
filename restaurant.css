@@ -1,0 +1,22 @@
+body {
+  background-color: #ffe3d9;
+}
+
+#header {
+  font-size: 25px;
+  color: #ae5102;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: bold;
+}
+
+#welcome {
+  /* font-size: 45px; */
+  color: #631e11;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: bold;
+}
+
+/* scroll 
+/* 1. skeleton  
+/* 2. visuals
+/* 3. functionality 
