@@ -11,7 +11,6 @@ body{
 }
 
 #welcome {
-  /* font-size: 45px; */
   color: #631e11;
   font-family: "Share Tech Mono", monospace;
   font-weight: bold;
@@ -29,11 +28,35 @@ p{
 
 .nav-btn {
   border: none;
+  position: absolute;
+  margin-top: -310px;
+  font-size: 25px;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: bolder;
+  background-color: #ffe3d9;
+  color: #e34d35;
+  border-radius: 20px;
+  padding: 8px;
 }
 
 .nav-btn:hover {
   cursor: pointer;
+  background-color: #e34d35;
+  color: #ffe3d9;
 }
+
+#menu {
+  margin-left: 850px;
+}
+
+#about {
+  margin-left: 950px;
+}
+
+#book {
+  margin-left: 1100px;
+}
+
 /* scroll 
 /* 1. skeleton  
 /* 2. visuals
