@@ -15,21 +15,24 @@ body{
   font-family: "Share Tech Mono", monospace;
   font-weight: bold;
   margin-left: 70px;
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 h1{
-  font-size: 45px;
+  font-size: 40px;
 }
 
 p{
-  font-size: 25px;
+  font-size: 20px;
+}
+
+#navigation {
+  margin-top: -330px;
 }
 
 .nav-btn {
   border: none;
-  position: absolute;
-  margin-top: -310px;
+  position:fixed;
   font-size: 25px;
   font-family: "Share Tech Mono", monospace;
   font-weight: bolder;
@@ -57,7 +60,13 @@ p{
   margin-left: 1100px;
 }
 
-/* scroll 
+#main-image {
+  margin-left: 800px;
+  margin-top: 100px;
+}
+
+
+
 /* 1. skeleton  
 /* 2. visuals
 /* 3. functionality 
