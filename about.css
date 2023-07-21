@@ -1,0 +1,45 @@
+body {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#mainPage {
+  background-color: #ffe3d9;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+#navigation {
+  margin-top: 35px;
+}
+
+.nav-btn {
+  border: none;
+  position: fixed;
+  font-size: 25px;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: bolder;
+  background-color: #ffe3d9;
+  color: #e34d35;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.nav-btn:hover {
+  cursor: pointer;
+  background-color: #e34d35;
+  color: #ffe3d9;
+}
+
+#menu {
+  margin-left: 850px;
+}
+
+#about {
+  margin-left: 950px;
+}
+
+#book {
+  margin-left: 1100px;
+}

@@ -3,18 +3,18 @@ body {
   margin-left: 0px;
 }
 
-#mainPageMenu {
+#mainPage {
   background-color: #ffe3d9;
   position: absolute;
   height: 100%;
   width: 100%;
 }
 
-#navigationMenu {
+#navigation {
   margin-top: 35px;
 }
 
-.nav-btn-menu {
+.nav-btn {
   border: none;
   position: fixed;
   font-size: 25px;
@@ -26,20 +26,20 @@ body {
   padding: 8px;
 }
 
-.nav-btn-menu:hover {
+.nav-btn:hover {
   cursor: pointer;
   background-color: #e34d35;
   color: #ffe3d9;
 }
 
-#menuMenu {
+#menu {
   margin-left: 850px;
 }
 
-#aboutMenu {
+#about {
   margin-left: 950px;
 }
 
-#bookMenu {
+#book {
   margin-left: 1100px;
 }
