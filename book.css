@@ -1,6 +1,7 @@
 body {
   margin-top: 0px;
   margin-left: 0px;
+  background-color: #ffe3d9;
 }
 
 #mainPage {
@@ -20,10 +21,10 @@ body {
   font-size: 25px;
   font-family: "Share Tech Mono", monospace;
   font-weight: bolder;
-  background-color: #ffe3d9;
   color: #e34d35;
   border-radius: 20px;
   padding: 8px;
+  background-color: #ffe3d9;
 }
 
 .nav-btn:hover {
@@ -42,4 +43,49 @@ body {
 
 #book {
   margin-left: 1100px;
+}
+
+#book-form {
+  margin-top: 120px;
+  margin-left: 250px;
+  margin-right: 800px;
+}
+
+fieldset {
+  border: none;
+  font-family: "Share Tech Mono", monospace;
+  color: #631e11;
+  font-size: 25px;
+  background-color: #ffe3d9;
+}
+
+legend {
+  font-weight: bolder;
+}
+
+ul {
+  list-style-type: none;
+}
+
+input {
+  display: grid;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
+  color: #631e11;
+  width: 150px;
+}
+
+#submit {
+  background-color: #631e11;
+  color: #ffe3d9;
+  margin-top: 50px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 18px;
+  padding: 8px;
+}
+
+#submit:hover {
+  cursor: pointer;
+  background-color: #e34d35;
 }
