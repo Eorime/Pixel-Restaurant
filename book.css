@@ -70,7 +70,8 @@ ul {
 input {
   display: grid;
   border-radius: 5px;
-  border: none;
+  border: solid;
+  border-width: 2px;
   margin: 20px;
   color: #631e11;
   width: 150px;
@@ -83,7 +84,11 @@ input {
   font-family: "Share Tech Mono", monospace;
   font-size: 18px;
   padding: 8px;
+  border-radius: 5px;
 }
+
+/*submitze gvinda ro iyos its been booked successfully da rame pixel art gamovides da
+return button kidev*/
 
 #submit:hover {
   cursor: pointer;
