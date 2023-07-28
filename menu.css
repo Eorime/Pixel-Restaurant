@@ -43,3 +43,19 @@ body {
 #book {
   margin-left: 1100px;
 }
+
+#burger {
+  margin-left: 140px;
+  margin-top: 50px;
+}
+
+#pizza {
+  margin-left: 90px;
+  margin-bottom: 10px;
+}
+
+#salad {
+  margin-left: 110px;
+  margin-top: 50px;
+  margin-bottom: -40px;
+}
