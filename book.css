@@ -43,6 +43,8 @@ body {
 
 #book {
   margin-left: 1100px;
+  background-color: #e34d35;
+  color: #ffe3d9;
 }
 
 #book-form {
