@@ -72,7 +72,7 @@ body {
 #sides {
   position: relative;
   margin-left: 230px;
-  margin-top: 150px;
+  margin-top: 120px;
   margin-bottom: -50px;
   font-family: "Share Tech Mono", monospace;
   font-size: 25px;
@@ -85,9 +85,27 @@ body {
   margin-top: 70px;
 }
 
+#burger-name {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: -32px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
+}
+
 #pizza {
   margin-left: 90px;
   margin-bottom: 10px;
+}
+
+#pizza-name {
+  position: absolute;
+  margin-left: 548px;
+  margin-top: -32px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
 }
 
 #salad {
@@ -96,10 +114,28 @@ body {
   margin-bottom: -25px;
 }
 
+#salad-name {
+  position: absolute;
+  margin-left: 863px;
+  margin-top: -32px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
+}
+
 #lavacake {
   margin-left: 215px;
   margin-top: 40px;
   margin-bottom: -20px;
+}
+
+#cake-name {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: -70px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
 }
 
 #icecream {
@@ -108,9 +144,27 @@ body {
   margin-bottom: 5px;
 }
 
+#cream-name {
+  position: absolute;
+  margin-left: 548px;
+  margin-top: -70px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
+}
+
 #cheesecake {
   margin-left: 92px;
   margin-bottom: 25px;
+}
+
+#cheesecake-name {
+  position: absolute;
+  margin-left: 863px;
+  margin-top: -70px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
 }
 
 #bruschetta {
@@ -118,12 +172,39 @@ body {
   margin-top: 20px;
 }
 
+#bruschetta-name {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: -45px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
+}
+
 #fries {
   margin-left: 70px;
   margin-bottom: 20px;
 }
 
+#fries-name {
+  position: absolute;
+  margin-left: 548px;
+  margin-top: -45px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
+}
+
 #nuggets {
   margin-left: 73px;
   margin-bottom: -24px;
+}
+
+#nuggets-name {
+  position: absolute;
+  margin-left: 863px;
+  margin-top: -45px;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  color: #631e11;
 }
