@@ -140,6 +140,11 @@ body {
 }
 
 #salad-text {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 13px;
+  color: #631e11;
+  margin-left: 863px;
+  position: absolute;
 }
 
 #lavacake {
@@ -205,6 +210,12 @@ body {
 }
 
 #cheesecake-text {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 13px;
+  color: #631e11;
+  margin-left: 863px;
+  position: absolute;
+  margin-top: -25px;
 }
 
 #bruschetta {
@@ -271,7 +282,7 @@ body {
   font-family: "Share Tech Mono", monospace;
   font-size: 13px;
   color: #631e11;
-  margin-left: 548px;
+  margin-left: 863px;
   position: absolute;
   margin-top: 3px;
 }
