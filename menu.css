@@ -23,7 +23,7 @@ body {
   font-weight: bolder;
   background-color: #ffe3d9;
   color: #e34d35;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 8px;
 }
 
@@ -102,6 +102,15 @@ body {
   position: absolute;
 }
 
+#burger-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 435px;
+  position: absolute;
+  margin-top: 90px;
+}
+
 #pizza {
   margin-left: 90px;
   margin-bottom: 10px;
@@ -122,6 +131,15 @@ body {
   color: #631e11;
   margin-left: 548px;
   position: absolute;
+}
+
+#pizza-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 750px;
+  position: absolute;
+  margin-top: 90px;
 }
 
 #salad {
@@ -145,6 +163,15 @@ body {
   color: #631e11;
   margin-left: 863px;
   position: absolute;
+}
+
+#salad-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 1070px;
+  position: absolute;
+  margin-top: 90px;
 }
 
 #lavacake {
@@ -171,6 +198,15 @@ body {
   margin-top: -25px;
 }
 
+#cake-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 435px;
+  position: absolute;
+  margin-top: 50px;
+}
+
 #icecream {
   margin-left: 28px;
   margin-top: 20px;
@@ -193,6 +229,15 @@ body {
   margin-left: 548px;
   position: absolute;
   margin-top: -25px;
+}
+
+#cream-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 750px;
+  position: absolute;
+  margin-top: 50px;
 }
 
 #cheesecake {
@@ -218,6 +263,15 @@ body {
   margin-top: -25px;
 }
 
+#cheesecake-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 1070px;
+  position: absolute;
+  margin-top: 50px;
+}
+
 #bruschetta {
   margin-left: 250px;
   margin-top: 20px;
@@ -239,6 +293,15 @@ body {
   margin-left: 230px;
   position: absolute;
   margin-top: 3px;
+}
+
+#bruschetta-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 435px;
+  position: absolute;
+  margin-top: 70px;
 }
 
 #fries {
@@ -264,6 +327,15 @@ body {
   margin-top: 3px;
 }
 
+#fries-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 750px;
+  position: absolute;
+  margin-top: 70px;
+}
+
 #nuggets {
   margin-left: 73px;
   margin-bottom: -24px;
@@ -285,4 +357,13 @@ body {
   margin-left: 863px;
   position: absolute;
   margin-top: 3px;
+}
+
+#nuggets-price {
+  font-family: "Share Tech Mono", monospace;
+  font-size: 24px;
+  color: #631e11;
+  margin-left: 1070px;
+  position: absolute;
+  margin-top: 70px;
 }

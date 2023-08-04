@@ -22,7 +22,7 @@ body {
   font-family: "Share Tech Mono", monospace;
   font-weight: bolder;
   color: #e34d35;
-  border-radius: 20px;
+  border-radius: 10px;
   padding: 8px;
   background-color: #ffe3d9;
 }
@@ -48,7 +48,7 @@ body {
 }
 
 #book-form {
-  margin-top: 120px;
+  margin-top: 100px;
   margin-left: 250px;
   margin-right: 800px;
 }
@@ -95,4 +95,16 @@ return button kidev*/
 #submit:hover {
   cursor: pointer;
   background-color: #e34d35;
+}
+
+#burger-book {
+  position: absolute;
+  margin-left: 580px;
+  margin-top: -600px;
+}
+
+#fries-book {
+  position: absolute;
+  margin-left: 820px;
+  margin-top: -530px;
 }
