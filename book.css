@@ -51,6 +51,9 @@ body {
   margin-top: 100px;
   margin-left: 250px;
   margin-right: 800px;
+  animation-name: slideForm;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
 
 fieldset {
@@ -101,10 +104,47 @@ return button kidev*/
   position: absolute;
   margin-left: 580px;
   margin-top: -600px;
+  animation-name: slideBurger;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
 }
 
 #fries-book {
   position: absolute;
   margin-left: 820px;
   margin-top: -530px;
+  animation-name: slideFries;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes slideForm {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-right: 800px;
+    margin-left: 250px;
+  }
+}
+
+@keyframes slideBurger {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 580px;
+  }
+}
+
+@keyframes slideFries {
+  from {
+    margin-left: 100%;
+  }
+
+  to {
+    margin-left: 820px;
+  }
 }

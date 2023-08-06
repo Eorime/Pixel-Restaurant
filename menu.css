@@ -114,6 +114,20 @@ body {
 #pizza {
   margin-left: 90px;
   margin-bottom: 10px;
+  animation-name: pizzaJump;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pizzaJump {
+  from {
+    margin-bottom: 10px;
+  }
+
+  to {
+    margin-bottom: 16px;
+  }
 }
 
 #pizza-name {
@@ -146,6 +160,20 @@ body {
   margin-left: 110px;
   margin-top: 50px;
   margin-bottom: -25px;
+  animation-name: saladJump;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes saladJump {
+  from {
+    margin-bottom: -25px;
+  }
+
+  to {
+    margin-bottom: -19px;
+  }
 }
 
 #salad-name {
@@ -275,6 +303,20 @@ body {
 #bruschetta {
   margin-left: 250px;
   margin-top: 20px;
+  animation-name: bruschettaJump;
+  animation-duration: s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bruschettaJump {
+  from {
+    margin-top: 26px;
+  }
+
+  to {
+    margin-top: 20px;
+  }
 }
 
 #bruschetta-name {
@@ -307,6 +349,20 @@ body {
 #fries {
   margin-left: 70px;
   margin-bottom: 20px;
+  animation-name: friesJump;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes friesJump {
+  from {
+    margin-bottom: 20 px;
+  }
+
+  to {
+    margin-bottom: 26px;
+  }
 }
 
 #fries-name {
@@ -339,6 +395,20 @@ body {
 #nuggets {
   margin-left: 73px;
   margin-bottom: -24px;
+  animation-name: nuggetsJump;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes nuggetsJump {
+  from {
+    margin-bottom: -32px;
+  }
+
+  to {
+    margin-bottom: -24px;
+  }
 }
 
 #nuggets-name {
