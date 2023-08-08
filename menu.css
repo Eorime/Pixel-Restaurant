@@ -83,6 +83,20 @@ body {
 #burger {
   margin-left: 230px;
   margin-top: 70px;
+  animation-name: burgerJump;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes burgerJump {
+  from {
+    margin-top: 76px;
+  }
+
+  to {
+    margin-top: 70px;
+  }
 }
 
 #burger-name {
@@ -206,6 +220,20 @@ body {
   margin-left: 215px;
   margin-top: 40px;
   margin-bottom: -20px;
+  animation-name: cakeJump;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes cakeJump {
+  from {
+    margin-bottom: -26px;
+  }
+
+  to {
+    margin-bottom: -20px;
+  }
 }
 
 #cake-name {
@@ -271,6 +299,20 @@ body {
 #cheesecake {
   margin-left: 92px;
   margin-bottom: 25px;
+  animation-name: cheesecakeJump;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes cheesecakeJump {
+  from {
+    margin-bottom: 25px;
+  }
+
+  to {
+    margin-bottom: 31px;
+  }
 }
 
 #cheesecake-name {
