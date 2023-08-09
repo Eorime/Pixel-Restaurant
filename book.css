@@ -116,6 +116,7 @@ return button kidev*/
   animation-name: slideFries;
   animation-duration: 1.5s;
   animation-iteration-count: 1;
+  padding-bottom: 150px;
 }
 
 @keyframes slideForm {

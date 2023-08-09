@@ -83,20 +83,6 @@ body {
 #burger {
   margin-left: 230px;
   margin-top: 70px;
-  animation-name: burgerJump;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes burgerJump {
-  from {
-    margin-top: 76px;
-  }
-
-  to {
-    margin-top: 70px;
-  }
 }
 
 #burger-name {
@@ -174,20 +160,6 @@ body {
   margin-left: 110px;
   margin-top: 50px;
   margin-bottom: -25px;
-  animation-name: saladJump;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes saladJump {
-  from {
-    margin-bottom: -25px;
-  }
-
-  to {
-    margin-bottom: -19px;
-  }
 }
 
 #salad-name {
@@ -438,19 +410,6 @@ body {
   margin-left: 73px;
   margin-bottom: -24px;
   animation-name: nuggetsJump;
-  animation-duration: 0.8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes nuggetsJump {
-  from {
-    margin-bottom: -32px;
-  }
-
-  to {
-    margin-bottom: -24px;
-  }
 }
 
 #nuggets-name {
@@ -478,4 +437,5 @@ body {
   margin-left: 1070px;
   position: absolute;
   margin-top: 70px;
+  padding-bottom: 200px;
 }
