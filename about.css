@@ -56,16 +56,59 @@ p {
 #p1 {
   margin-left: 600px;
   margin-top: 180px;
+  animation-name: slideOne;
+  animation-duration: 1s;
+}
+
+@keyframes slideOne {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 180px;
+  }
 }
 
 #p2 {
   margin-left: 100px;
   margin-top: 120px;
+  animation-name: slideTwo;
+  animation-duration: 1s;
+}
+
+@keyframes slideTwo {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 120px;
+  }
 }
 
 #p3 {
   margin-left: 100px;
-  margin-top: 120px;
-  padding-bottom: 200px;
+  margin-top: 150px;
+  padding-bottom: 150px;
   font-size: 22px;
+  animation-name: bounceThree;
+  animation-iteration-count: infinite;
+  animation-duration: 0.8s;
+  animation-direction: alternate;
+}
+
+@keyframes bounceThree {
+  from {
+    margin-top: 160px;
+  }
+
+  to {
+    margin-top: 150px;
+  }
+}
+
+#heart {
+  margin-top: -400px;
+  margin-left: 580px;
 }
