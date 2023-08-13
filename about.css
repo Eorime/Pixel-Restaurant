@@ -88,27 +88,87 @@ p {
 }
 
 #p3 {
-  margin-left: 100px;
+  margin-left: 120px;
   margin-top: 150px;
   padding-bottom: 150px;
   font-size: 22px;
-  animation-name: bounceThree;
+}
+
+@keyframes bounce {
+  from {
+    margin-top: -540px;
+  }
+
+  to {
+    margin-top: -520px;
+  }
+}
+
+#heart {
+  margin-top: -100px;
+  margin-left: 650px;
+  position: absolute;
+}
+
+#logo {
+  background-color: transparent;
+  border: none;
+  margin-top: 35px;
+  margin-left: 80px;
+  position: fixed;
+}
+
+#logo:hover {
+  cursor: pointer;
+}
+
+#utensils {
+  margin-top: -550px;
+  margin-left: 1000px;
+  position: absolute;
+  animation-name: bounce;
   animation-iteration-count: infinite;
   animation-duration: 0.8s;
   animation-direction: alternate;
 }
 
-@keyframes bounceThree {
+#cucumber {
+  margin-top: -720px;
+  margin-left: 300px;
+  position: absolute;
+  animation-name: bounceCucumber;
+  animation-iteration-count: infinite;
+  animation-duration: 0.8s;
+  animation-direction: alternate;
+}
+
+#tomato {
+  margin-top: -700px;
+  margin-left: 200px;
+  position: absolute;
+  animation-name: bounceCucumber;
+  animation-iteration-count: infinite;
+  animation-delay: 0.8s;
+  animation-duration: 0.8s;
+  animation-direction: alternate;
+}
+
+@keyframes bounceTomato {
   from {
-    margin-top: 160px;
+    margin-top: -720px;
   }
 
   to {
-    margin-top: 150px;
+    margin-top: -700;
   }
 }
 
-#heart {
-  margin-top: -400px;
-  margin-left: 580px;
+@keyframes bounceCucumber {
+  from {
+    margin-top: -740px;
+  }
+
+  to {
+    margin-top: -720px;
+  }
 }
