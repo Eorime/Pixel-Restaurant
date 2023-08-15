@@ -445,19 +445,19 @@ body {
 #menu-main {
   animation-name: slideIn;
   animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 #menu-dessert {
   animation-name: slideIn;
   animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 #menu-sides {
   animation-name: slideIn;
   animation-iteration-count: 1;
-  animation-duration: 1s;
+  animation-duration: 1.5s;
 }
 
 @keyframes slideIn {
