@@ -63,4 +63,45 @@ p {
 #main-image {
   margin-left: 800px;
   margin-top: 100px;
+  position: absolute;
+}
+
+#sparkle {
+  margin-left: 830px;
+  margin-top: 200px;
+  position: absolute;
+  animation-name: sparkleOne;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#sparkle2 {
+  margin-left: 880px;
+  margin-top: 250px;
+  position: absolute;
+  animation-name: sparkleTwo;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes sparkleOne {
+  from {
+    margin-top: 200px;
+  }
+
+  to {
+    margin-top: 210px;
+  }
+}
+
+@keyframes sparkleTwo {
+  from {
+    margin-top: 260px;
+  }
+
+  to {
+    margin-top: 250px;
+  }
 }

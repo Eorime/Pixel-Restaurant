@@ -441,3 +441,31 @@ body {
 #logo:hover {
   cursor: pointer;
 }
+
+#menu-main {
+  animation-name: slideIn;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+#menu-dessert {
+  animation-name: slideIn;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+#menu-sides {
+  animation-name: slideIn;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+@keyframes slideIn {
+  from {
+    margin-top: 100%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
