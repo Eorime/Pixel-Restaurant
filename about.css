@@ -88,7 +88,7 @@ p {
 }
 
 #p3 {
-  margin-left: 120px;
+  margin-left: 100px;
   margin-top: 150px;
   padding-bottom: 150px;
   font-size: 22px;
@@ -105,8 +105,8 @@ p {
 }
 
 #heart {
-  margin-top: -100px;
-  margin-left: 650px;
+  margin-top: -130px;
+  margin-left: 625px;
   position: absolute;
 }
 

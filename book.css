@@ -85,11 +85,13 @@ input {
 #submit {
   background-color: #631e11;
   color: #ffe3d9;
-  margin-top: 50px;
+  margin-top: 45px;
   font-family: "Share Tech Mono", monospace;
   font-size: 18px;
   padding: 8px;
   border-radius: 5px;
+  border: none;
+  margin-left: 115px;
 }
 
 #submit:hover {
