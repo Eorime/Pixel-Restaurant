@@ -26,7 +26,7 @@ button.addEventListener("click", function () {
       let bookedWindow = document.createElement("div");
       bookedWindow.innerHTML = `
         <p>Dearest ${name} ${lastName}, you just successfully booked a table <br> for ${date} at 
-          ${time}! <br> If anything changes on our side, we will contact you via your number: <br> ${number}.
+          ${time}! <br> If anything changes on our side, we will contact you at your number: <br> ${number}.
           </p>
           <button id="reload" onClick="location.reload();">OK</button>
       `;
@@ -34,4 +34,7 @@ button.addEventListener("click", function () {
     }
   }
   popupWindow();
+  burger.style.opacity = 0.2;
+  fries.style.opacity = 0.2;
+  form.style.opacity = 0.2;
 });
