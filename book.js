@@ -28,6 +28,7 @@ button.addEventListener("click", function () {
         <p>Dearest ${name} ${lastName}, you just successfully booked a table <br> for ${date} at 
           ${time}! <br> If anything changes on our side, we will contact you via your number: <br> ${number}.
           </p>
+          <button id="reload" onClick="location.reload();">OK</button>
       `;
       popup.appendChild(bookedWindow);
     }

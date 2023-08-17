@@ -173,3 +173,20 @@ input {
   padding-right: 8px;
   font-size: 18px;
 }
+
+#reload {
+  background-color: #e34d35;
+  color: #ffe3d9;
+  border-radius: 5px;
+  border: none;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+}
+
+#reload:hover {
+  background-color: #ffe3d9;
+  color: #e34d35;
+  cursor: pointer;
+}
