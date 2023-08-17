@@ -19,9 +19,7 @@ button.addEventListener("click", function () {
     alert("What about the date?");
   } else if (typeof time === "string" && time.length === 0) {
     alert("What time?");
-  }
-  // change the window text and show it da mere restart buttonze window style display none
-  else {
+  } else {
     function popupWindow() {
       let popup = document.getElementById("popup");
       popup.innerHTML = "";
@@ -31,10 +29,8 @@ button.addEventListener("click", function () {
           ${time}! <br> If anything changes on our side, we will contact you via your number: <br> ${number}.
           </p>
       `;
-      // axla aq button romelic iqneba ok da daabrunebs imaze
       popup.appendChild(bookedWindow);
     }
   }
   popupWindow();
-  //make foni uferuli
 });
