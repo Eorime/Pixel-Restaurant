@@ -6,6 +6,9 @@ button.addEventListener("click", function () {
   let number = document.querySelector("#customerNumber").value;
   let date = document.querySelector("#customerDate").value;
   let time = document.querySelector("#customerTime").value;
+  let burger = document.querySelector("#burger-book");
+  let fries = document.querySelector("#fries-book");
+  let form = document.querySelector("#book-form");
   if (typeof name === "string" && name.length === 0) {
     alert("Please put in your name!");
   } else if (typeof lastName === "string" && lastName.length === 0) {
@@ -16,8 +19,22 @@ button.addEventListener("click", function () {
     alert("What about the date?");
   } else if (typeof time === "string" && time.length === 0) {
     alert("What time?");
-  } else
-    alert(`Dearest ${name} ${lastName}, you just successfully booked a table for ${date} at 
-  ${time}! If anything changes on our side, we will contact you via your number: ${number}.
-  `);
+  }
+  // change the window text and show it da mere restart buttonze window style display none
+  else {
+    function popupWindow() {
+      let popup = document.getElementById("popup");
+      popup.innerHTML = "";
+      let bookedWindow = document.createElement("div");
+      bookedWindow.innerHTML = `
+        <p>Dearest ${name} ${lastName}, you just successfully booked a table <br> for ${date} at 
+          ${time}! <br> If anything changes on our side, we will contact you via your number: <br> ${number}.
+          </p>
+      `;
+      // axla aq button romelic iqneba ok da daabrunebs imaze
+      popup.appendChild(bookedWindow);
+    }
+  }
+  popupWindow();
+  //make foni uferuli
 });

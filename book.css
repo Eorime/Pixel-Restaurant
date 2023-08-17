@@ -160,3 +160,16 @@ input {
 #logo:hover {
   cursor: pointer;
 }
+
+#popup {
+  background-color: #e34d35;
+  margin-left: 400px;
+  position: absolute;
+  margin-top: -500px;
+  font-family: "Share Tech Mono", monospace;
+  color: #ffe3d9;
+  border-radius: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 18px;
+}
